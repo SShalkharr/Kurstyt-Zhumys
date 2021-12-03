@@ -114,7 +114,7 @@ private static final List<Derekter> der = new ArrayList<>(); // Derekter klasyn 
                ).forEachOrdered((k) -> { // agynnyn kez-kelgen elementi usin oryndau kerek kezde
            result.add(k.toString()); // Arraylist tabylsa ony (result)-ka kosu
           });
-    if (der.isEmpty()) result.add("Korsetilgen malimet boiynsha -------------> DEREKTER TABYLMADY!!! "); // tabylmasa
+    if (result.isEmpty()) result.add("Korsetilgen malimet boiynsha -------------> DEREKTER TABYLMADY!!! "); // tabylmasa
         return result.toString(); // tabylsa
     }
     
